@@ -28,7 +28,7 @@ O último passo é configurar a biblioteca Veraciti para carregar a biblioteca d
 Documentação
 =================
 
-[Documentação](http://plataforma-e1.leonwebhost.com/group__s0.html)
+[Documentação](https://elgindevelopercommunity.github.io/group__s0.html)
 
 Exemplos
 =================
