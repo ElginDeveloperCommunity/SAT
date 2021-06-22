@@ -16,5 +16,5 @@ Todas as funcionalidades do pacote e os demais exemplos estão disponíveis nos 
 
 ### Exemplos
 =================  
-- [Delphi](https://github.com/ElginDeveloperCommunity/SAT/tree/master/Elgin/SMART%20SAT/ElginSATFramework/Exemplos/Exemplo_FrameworkSAT_Delphi)
-- [VB6](https://github.com/ElginDeveloperCommunity/SAT/tree/master/Elgin/SMART%20SAT/ElginSATFramework/Exemplos/Exemplo_FrameworkSAT_VB6)
+- [Delphi](https://github.com/ElginDeveloperCommunity/ElginSATFramework/tree/master/Exemplos/Exemplo_FrameworkSAT_Delphi)
+- [VB6](https://github.com/ElginDeveloperCommunity/ElginSATFramework/tree/master/Exemplos/Exemplo_FrameworkSAT_VB6)

@@ -1,0 +1,8 @@
+Liberações de rede para ativação/associação:
+
+• Portas 80 e 443 no protocolo TCP - HTTP e HTTPS;
+• Porta 123 no protocolo UDP;
+• Liberaçãoda seguintes URLs:
+– http://ntp.cais.rnp.br
+– https://wssatsp.fazenda.sp.gov.br
+– https://wssatnacional.fazenda.sp.gov.br
