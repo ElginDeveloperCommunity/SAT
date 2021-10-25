@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CFe>
+ <infCFe versaoDadosEnt="0.08">
+  <ide>
+   <CNPJ>16716114000172</CNPJ>
+   <signAC>SGR-SAT SISTEMA DE GESTAO E RETAGUARDA DO SAT</signAC>
+   <numeroCaixa>123</numeroCaixa>
+  </ide>
+  <emit>
+   <CNPJ>14200166000166</CNPJ>
+   <IE>111111111111</IE>
+   <IM>123123</IM>
+   <indRatISSQN>N</indRatISSQN>
+  </emit>
+  <dest/>
+  <entrega>
+   <xLgr>Rua Aruana</xLgr>
+   <nro>32</nro>
+   <xBairro>Urbanova</xBairro>
+   <xMun>Sao Jose dos Campos</xMun>
+   <UF>SP</UF>
+  </entrega>
+  <det nItem="1">
+   <prod>
+    <cProd>116</cProd>
+    <xProd>cubo magico</xProd>
+    <CFOP>5102</CFOP>
+    <uCom>48329</uCom>
+    <qCom>1.0000</qCom>
+    <vUnCom>32.00</vUnCom>
+    <indRegra>A</indRegra>
+    <obsFiscoDet xCampoDet="Cod. CEST">
+     <xTextoDet>999999999</xTextoDet>
+    </obsFiscoDet>
+   </prod>
+   <imposto>
+    <ICMS>
+     <ICMS40>
+      <Orig>0</Orig>
+      <CST>40</CST>
+     </ICMS40>
+    </ICMS>
+    <PIS>
+     <PISSN>
+      <CST>49</CST>
+     </PISSN>
+    </PIS>
+    <COFINS>
+     <COFINSSN>
+      <CST>49</CST>
+     </COFINSSN>
+    </COFINS>
+   </imposto>
+   <infAdProd>Cubo m�gico produzido pela cuberbrasil</infAdProd>
+  </det>
+  <total/>
+  <pgto>
+   <MP>
+    <cMP>01</cMP>
+    <vMP>32.00</vMP>
+   </MP>
+  </pgto>
+  <infAdic/>
+ </infCFe>
+</CFe>

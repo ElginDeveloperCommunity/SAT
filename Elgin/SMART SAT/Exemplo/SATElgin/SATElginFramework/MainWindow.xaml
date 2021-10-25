@@ -1,0 +1,236 @@
+﻿<Window x:Class="SATElginFramework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SATElginFramework"
+        mc:Ignorable="d"
+        x:Name="Nome_Da_Janela_Principal"
+        Title="MainWindow" Height="700" Width="auto"
+        ResizeMode="NoResize"
+        WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <!--// Text font style //-->
+
+        <Style x:Key="font_style" TargetType="TextBlock">
+            <Setter Property="FontFamily"
+                    Value="Fonts/Roboto-Light.ttf #Roboto"/>
+            <Setter Property="VerticalAlignment"
+                    Value="Center"/>
+            <Setter Property="HorizontalAlignment"
+                    Value="Left"/>
+            <Setter Property="Foreground"
+                    Value="Black"/>
+            <Setter Property="FontSize"
+                    Value="20"/>
+        </Style>
+        <Style x:Key="btn_style" TargetType="Button">
+            <Setter Property="Margin" Value="5,5"/>
+            <Setter Property="Background" Value="#0099ff"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="15px"/>
+            <Setter Property="MinHeight" Value="30"/>
+            <Setter Property="MinWidth" Value="160"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter Property="Background" Value="#191919"/>
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" Value="#005690"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="btn_diretorio" TargetType="Button">
+            <Setter Property="Background" Value="#0099ff"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="15px"/>
+        </Style>
+        <Style x:Key="txt_style" TargetType="TextBox">
+            <Setter Property="Margin" Value="5,0"/>
+        </Style>
+    </Window.Resources>
+
+
+    <Grid Margin="30" Background="#ffffff">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="71*"/>
+            <ColumnDefinition Width="47*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="topwindow" Margin="0,0,0,10" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Source="Assets/elgin-logo.png" Height="40" HorizontalAlignment="Left"/>
+            <Button x:Name="Close" Grid.Column="2" Width="40" Click="Fechar_Click" HorizontalAlignment="Right">
+                <Button.Background>
+                    <ImageBrush ImageSource="Assets/cancel.png"/>
+                </Button.Background>
+
+            </Button>
+        </Grid>
+
+        <Grid x:Name="MainGrid" Grid.Row="1" Margin="0,0,0,20" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <Grid x:Name="GridVendas" Margin="0,0,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <GroupBox Grid.Row="0" x:Name="Venda" Margin="10" Padding="5">
+                    <GroupBox.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <!-- <Image Source="/WpfTutorialSamples;component/Images/group.png" Margin="3,0" /> -->
+                            <TextBlock Style="{StaticResource font_style}">Vendas</TextBlock>
+                        </StackPanel>
+                    </GroupBox.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="GerarXML" Grid.Column="0" Style="{StaticResource btn_style}" Content="Gerar XML Venda" Click="GeraXML_Click"/>
+                        <Button x:Name="ProcessarXML" Grid.Column="1" Style="{StaticResource btn_style}" Content="Processar XML Venda" Click="ProcessaVenda_Click"/>
+                    </Grid>
+                </GroupBox>
+
+                <GroupBox Grid.Row="1" x:Name="VendaModelo2" Margin="10" Padding="5">
+                    <GroupBox.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <!-- <Image Source="/WpfTutorialSamples;component/Images/group.png" Margin="3,0" /> -->
+                            <TextBlock Style="{StaticResource font_style}">Vendas Modelo 2</TextBlock>
+                        </StackPanel>
+                    </GroupBox.Header>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox x:Name="caminho_root_pastas" Grid.Row="0" Height="30" Style="{StaticResource txt_style}" Text="./" MaxWidth="320"/>
+                        <Button x:Name="EscolheDiretorio" Grid.Row="0" Grid.Column="1" Height="30" Width="40" Margin="10,0,5,0" Style="{StaticResource btn_diretorio}" Content="..." Click="EscolheDiretorio_Click"/>
+                        <Button x:Name="GerarXML2" Grid.Row="1" Grid.ColumnSpan="2" Style="{StaticResource btn_style}" Content="Gerar XML Venda" Click="GerarXML2_Click"/>
+                        <Button x:Name="ProcessarXML2" Grid.Row="2" Grid.ColumnSpan="2" Style="{StaticResource btn_style}" Content="Processar XML Venda" Click="ProcessaVenda_Click"/>
+                    </Grid>
+                </GroupBox>
+
+                <GroupBox Grid.Row="2" x:Name="Cancelamento" Margin="10" Padding="5">
+                    <GroupBox.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <!-- <Image Source="/WpfTutorialSamples;component/Images/group.png" Margin="3,0" /> -->
+                            <TextBlock Style="{StaticResource font_style}">Cancelamento</TextBlock>
+                        </StackPanel>
+                    </GroupBox.Header>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Button x:Name="GerarXMLCancelamento" Style="{StaticResource btn_style}" Grid.Row="0" Content="Gerar XML Cancelamento" Click="GerarXMLCancelamento_Click"/>
+                        <TextBox x:Name="ChaveAcessoXML" Style="{StaticResource txt_style}" Grid.Row="1"/>
+                        <Button x:Name="ProcessarXMLCancelamento" Style="{StaticResource btn_style}" Grid.Row="2" Content="Processar Cancelamento" Click="ProcessarXMLCancelamento_Click"/>
+
+                    </Grid>
+                </GroupBox>
+            </Grid>
+            <Grid x:Name="GridGeradorPDF" Grid.Column="1" Margin="20,0,0,0">
+                <GroupBox x:Name="GroupGeradorPDF">
+                    <GroupBox.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <!-- <Image Source="/WpfTutorialSamples;component/Images/group.png" Margin="3,0" /> -->
+                            <TextBlock Style="{StaticResource font_style}">Gerador de PDF</TextBlock>
+                        </StackPanel>
+                    </GroupBox.Header>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="CriarPDFSAT" Grid.Row="0" Grid.Column="0" Content="Criar PDF SAT" Style="{StaticResource btn_style}" Click="CriarPDFSAT_Click"/>
+                        <Button x:Name="EscolheDiretorioCriarPDF" Grid.Row="0" Grid.Column="1" Width="50" Margin="10,5,5,5" Style="{StaticResource btn_diretorio}" Content="..." Click="EscolheDiretorioCriarPDF_Click"/>
+                        <Button x:Name="CriarPDFCancelamento" Grid.Row="1" Grid.Column="0" Content="Criar PDF Cancelamento" Style="{StaticResource btn_style}" Click="CriarPDFCancelamento_Click"/>
+                        <Button x:Name="EscolheDiretorioCriarPDFCancelamento" Grid.Row="1" Grid.Column="1" Width="50" Margin="10,5,5,5" Style="{StaticResource btn_diretorio}" Content="..." Click="EscolheDiretorioCriarPDF_Click"/>
+                        <Button x:Name="CriarPDFNFCe" Grid.Row="2" Grid.Column="0" Content="Criar PDF NFC-e" Style="{StaticResource btn_style}" Click="CriarPDFNFCe_Click"/>
+                        <Button x:Name="EscolheDiretorioCriarPDFNFCe" Grid.Row="2" Grid.Column="1" Width="50" Margin="10,5,5,5" Style="{StaticResource btn_diretorio}" Content="..." Click="EscolheNFCe_Click"/>
+                        <Button x:Name="ImprimirPDF" Grid.Row="3" Grid.Column="0" Content="Imprimir PDF" Style="{StaticResource btn_style}" Click="ImprimirPDF_Click"/>
+                        <Button x:Name="EscolheDiretorioImprimirPDF" Grid.Row="3" Grid.Column="1" Width="50" Margin="10,5,5,5" Style="{StaticResource btn_diretorio}" Content="..." Click="EscolheDiretorioPDF_Click"/>
+                        <Button x:Name="ConfigurarDiretorioSaida" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Content="Configurar Diretório de Saída" Style="{StaticResource btn_style}" Click="ConfigurarDiretorioSaida_Click"/>
+                        <Button x:Name="GetUltimoPDFGerado" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Content="Imprimir Último PDF Gerado" Style="{StaticResource btn_style}" Click="GetUltimoPDFGerado_Click"/>
+
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </Grid>
+
+        <GroupBox  Grid.Row="2" Grid.ColumnSpan="2">
+            <GroupBox.Header>
+                <StackPanel Orientation="Horizontal">
+                    <!-- <Image Source="/WpfTutorialSamples;component/Images/group.png" Margin="3,0" /> -->
+                    <TextBlock Style="{StaticResource font_style}">Impressão dll E1</TextBlock>
+                </StackPanel>
+            </GroupBox.Header>
+            <Grid x:Name="Impressora" Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="ConectarImpressora" Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Content="Conectar Impressora" Style="{StaticResource btn_style}" Click="ConectarImpressora_Click"/>
+                <Button x:Name="ImprimirPDF417E1" Grid.Row="0" Grid.Column="1" Content="Imprimir Código PDF 417" Style="{StaticResource btn_style}" Click="ImprimirPDFE1_Click"/>
+                <Button x:Name="ImprimirXMLSATE1" Grid.Row="0" Grid.Column="2" Content="Imprimir XML SAT" Style="{StaticResource btn_style}" Click="ImprimirXMLSATE1_Click"/>
+                <Button x:Name="ImprimirXMLCancelamentoE1" Grid.Row="1" Grid.Column="2" Content="Imprimir XML Cancelamento" Style="{StaticResource btn_style}" Click="ImprimirXMLCancelamentoE1_Click"/>
+                <Button x:Name="ImprimirNFCeE1" Grid.Row="1" Grid.Column="1" Content="Imprimir XML NFC-e" Style="{StaticResource btn_style}" Click="ImprimirNFCeE1_Click"/>
+
+            </Grid>            
+        </GroupBox>
+    </Grid>
+</Window>
