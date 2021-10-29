@@ -20,3 +20,6 @@ Para usar a impressora, referir também às [documentações](https://github.com
 
 ### Teste ###
 Para testar o exemplo, baixe essa [pasta](https://github.com/ElginDeveloperCommunity/SAT/tree/master/Elgin/SMART%20SAT/Exemplo/SATElgin/SATElginFramework/bin/x86/Debug) e execute o arquivo .exe
+
+## Imagem do programa ##
+![image](https://user-images.githubusercontent.com/78883867/139507429-21f9b6fc-4075-400d-9907-305756a6e5c1.png)
