@@ -1,0 +1,7 @@
+Dados para ativação/uso do SmartSAT Desenvolvedor
+
+Código de Ativação: 123456789
+Cnpj Estabelecimento: 14.200.166\0001-66
+Cnpj Software House: 16.716.114\0001-72
+IE: 111111111111
+Assinatura do AC: SGR-SAT SISTEMA DE GESTAO E RETAGUARDA DO SAT
