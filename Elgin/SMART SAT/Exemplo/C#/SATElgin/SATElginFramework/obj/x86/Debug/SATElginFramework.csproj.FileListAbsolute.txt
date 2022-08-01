@@ -20,3 +20,25 @@ C:\Users\gabriel.franzeri\source\repos\SATElginFramework\SATElginFramework\obj\x
 C:\Users\gabriel.franzeri\source\repos\SATElginFramework\SATElginFramework\obj\x86\Debug\SATElginFramework.pdb
 C:\Users\gabriel.franzeri\source\repos\SATElginFramework\SATElginFramework\obj\x86\Debug\JanelaConectaImpressora.g.cs
 C:\Users\gabriel.franzeri\source\repos\SATElginFramework\SATElginFramework\obj\x86\Debug\JanelaConectaImpressora.baml
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\bin\x86\Debug\SATElginFramework.exe.config
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\bin\x86\Debug\SATElginFramework.exe
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\bin\x86\Debug\SATElginFramework.pdb
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\bin\x86\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\bin\x86\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\SATElginFramework.csprojAssemblyReference.cache
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\JanelaConectaImpressora.g.cs
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\MainWindow.g.cs
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\App.g.cs
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\SATElginFramework_MarkupCompile.cache
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\SATElginFramework_MarkupCompile.lref
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\JanelaConectaImpressora.baml
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\MainWindow.baml
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\SATElginFramework.g.resources
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\SATElginFramework.Properties.Resources.resources
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\SATElginFramework.csproj.GenerateResource.cache
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\SATElginFramework.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\SATElginFramework.csproj.CopyComplete
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\SATElginFramework.exe
+C:\Users\gabriel.franzeri\Documents\GitHub\SAT\Elgin\SMART SAT\Exemplo\C#\SATElgin\SATElginFramework\obj\x86\Debug\SATElginFramework.pdb
