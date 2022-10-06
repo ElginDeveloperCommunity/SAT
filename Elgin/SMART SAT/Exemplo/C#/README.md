@@ -19,7 +19,7 @@ Antes de poder testar o exemplo, deve-se fazer a instalação de todos os compon
 Para usar a impressora, referir também às [documentações](https://github.com/ElginDeveloperCommunity/Impressoras) presentes no repositório de impressoras.
 
 ### Teste ###
-Para testar o exemplo, baixe essa [pasta](https://github.com/ElginDeveloperCommunity/SAT/tree/master/Elgin/SMART%20SAT/Exemplo/SATElgin/SATElginFramework/bin/x86/Debug) e execute o arquivo .exe
+Para testar o exemplo, baixe essa [pasta](https://github.com/ElginDeveloperCommunity/SAT/tree/master/Elgin/SMART%20SAT/Exemplo/C%23/SATElgin/SATElginFramework/bin/x86/Debug) e execute o arquivo .exe
 
 ## Imagem do programa ##
 ![image](https://user-images.githubusercontent.com/78883867/139507429-21f9b6fc-4075-400d-9907-305756a6e5c1.png)
