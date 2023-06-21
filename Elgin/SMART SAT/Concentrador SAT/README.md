@@ -15,6 +15,12 @@ A biblioteca vai então comunicar com a Raspberry Pi que irá comunicar com o SA
 <br>
 A seguir um figura que representa a arquitetura do projeto com Concentrador SAT.
 
+<br>
+
+![image](https://github.com/ElginDeveloperCommunity/SAT/assets/78883867/9d7193a9-4343-44ed-bcbd-451e2a02f1be)
+
+<br>
+
 
 ### Requisitos
 * SAT: Equipamento deve ser **Elgin**
