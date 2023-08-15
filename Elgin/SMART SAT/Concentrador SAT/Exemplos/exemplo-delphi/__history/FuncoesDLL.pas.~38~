@@ -1,0 +1,23 @@
+
+unit FuncoesDLL;
+
+interface
+  function ConsultarSAT(numSessao : Integer):Pansichar ; stdcall ; external 'dllsat.dll';
+  function ConsultarStatusOperacional(numSessao : Integer ; codAtivacao : AnsiString):Pansichar ; stdcall ; external 'dllsat.dll';
+  function EnviarDadosVenda(numSessao : Integer ; codAtivacao : AnsiString ; dadosVenda : AnsiString):Pansichar ; stdcall ; external 'dllsat.dll';
+  function CancelarUltimaVenda(numSessao : Integer ;  codAtivacao : AnsiString ; chaveCanc : AnsiString ; dadosCanc : AnsiString):Pansichar ; stdcall ; external 'dllsat.dll';
+
+  function TesteFimAFim(numSessao : Integer ; codAtivacao : AnsiString ; dadosVenda : AnsiString):Pansichar ; stdcall ; external 'dllsat.dll';
+  function TrocarCodigoDeAtivacao(numSessao : Integer ; codAtivacao : AnsiString ; opcao : Integer ; newCod : AnsiString ; confCod : AnsiString):PAnsiChar ; stdcall ; external 'dllsat.dll';
+  function ConsultarNumeroSessao(numSessao : Integer ; codAtivacao : AnsiString ; numConsulta : Integer):PAnsiChar ; stdcall ; external 'dllsat.dll';
+  function AssociarAssinatura(numSessao : Integer ; codAtivacao : AnsiString ; cnpj : AnsiString ; assCNPJ : AnsiString):PAnsiChar ; stdcall ; external 'dllsat.dll';
+  function AtualizarSoftwareSAT(numSessao : Integer ; codAtivacao : AnsiString):PAnsiChar ; stdcall ; external 'dllsat.dll';
+  function BloquearSAT(numSessao : Integer ; codAtivacao : AnsiString):PAnsiChar ; stdcall ; external 'dllsat.dll';
+  function DesbloquearSAT(numSessao : Integer ; codAtivacao : AnsiString):PAnsiChar ; stdcall ; external 'dllsat.dll';
+  function Base64ToAscii():PAnsiChar;stdcall;external 'dllsat.dll';
+  function ExtrairLogs(numSessao : Integer ; codAtivacao : AnsiString):PAnsiChar ; stdcall ; external 'dllsat.dll';
+  function ConfigurarInterfaceDeRede(numSessao : Integer ; codAtivacao : AnsiString ; conf : AnsiString):PAnsiChar ; stdcall ; external 'dllsat.dll';
+  function AtivarSAT(numSessao : Integer; tpCertificado : Integer ; codAtivacao : AnsiString; cnpjCont : AnsiString ; codEstado : Integer):PAnsiChar ; stdcall ; external'dllsat.dll';
+implementation
+
+end.

@@ -1,0 +1,11 @@
+unit TratamentoRetorno;
+
+interface
+
+function TratRetorno(data:string):string;
+
+implementation
+
+
+
+end.

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/12/16 09:13:22.000.767,=C:\Users\bruno.cruz\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/12/16 09:14:23.000.496,C:\Users\bruno.cruz\Desktop\Linke SAT II\Unit1.pas=C:\Users\bruno.cruz\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/12/16 09:14:23.000.496,C:\Users\bruno.cruz\Desktop\Linke SAT II\Unit1.dfm=C:\Users\bruno.cruz\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2016/12/16 09:14:43.000.698,C:\Users\bruno.cruz\Desktop\Linke SAT II\Project1.dproj=C:\Users\bruno.cruz\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/12/16 09:24:15.000.110,C:\Users\bruno.cruz\Desktop\Linke SAT II\Unit1.pas=C:\Users\bruno.cruz\Desktop\Linke SAT II\Home.pas</Transaction>
+    <Transaction>2016/12/16 09:24:15.000.110,C:\Users\bruno.cruz\Desktop\Linke SAT II\Unit1.dfm=C:\Users\bruno.cruz\Desktop\Linke SAT II\Home.dfm</Transaction>
+    <Transaction>2016/12/16 10:45:57.000.130,=C:\Users\bruno.cruz\Desktop\Linke SAT II\Unit1.pas</Transaction>
+    <Transaction>2016/12/16 10:46:10.000.655,C:\Users\bruno.cruz\Desktop\Linke SAT II\Unit1.pas=C:\Users\bruno.cruz\Desktop\Linke SAT II\FuncoesDLL.pas</Transaction>
+    <Transaction>2016/12/19 11:06:23.000.730,=C:\Users\bruno.cruz\Desktop\Linke SAT II\Unit1.pas</Transaction>
+    <Transaction>2016/12/19 11:07:09.000.056,C:\Users\bruno.cruz\Desktop\Linke SAT II\TratamentoRetorno.pas=C:\Users\bruno.cruz\Desktop\Linke SAT II\Unit1.pas</Transaction>
+    <Transaction>2016/12/19 12:04:10.000.741,=C:\Users\bruno.cruz\Desktop\Linke SAT II\Unit2.pas</Transaction>
+    <Transaction>2016/12/19 12:04:25.000.242,C:\Users\bruno.cruz\Desktop\Linke SAT II\logs.dfm=C:\Users\bruno.cruz\Desktop\Linke SAT II\Unit2.dfm</Transaction>
+    <Transaction>2016/12/19 12:04:25.000.242,C:\Users\bruno.cruz\Desktop\Linke SAT II\logs.pas=C:\Users\bruno.cruz\Desktop\Linke SAT II\Unit2.pas</Transaction>
+    <Transaction>2016/12/19 12:34:35.000.244,C:\Users\bruno.cruz\Desktop\Linke SAT II\TratamentoRetorno.pas=</Transaction>
+    <Transaction>2016/12/21 10:57:00.000.505,=C:\Users\bruno.cruz\Desktop\Linke SAT II\ConfigurarRede.pas</Transaction>
+  </Transactions>
+</BorlandProject>

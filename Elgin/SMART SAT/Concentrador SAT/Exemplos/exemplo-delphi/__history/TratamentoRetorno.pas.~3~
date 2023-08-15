@@ -1,0 +1,32 @@
+unit TratamentoRetorno;
+
+interface
+uses
+System.Classes;
+
+function TratRetorno(data:string):string;
+
+implementation
+
+function tratRetorno(data:string):string;
+var
+  aux :TStringList;
+  aux2 : string;
+  i: Integer;
+begin
+  aux := TStringList.Create;
+  aux.Delimiter := '|';
+  aux.StrictDelimiter := true;
+  aux.DelimitedText := data;
+
+  aux2:='';
+  for i := 0 to aux.Count-1 do
+  begin
+    aux2 := aux2 + Utf8ToAnsi(aux[i]);
+  end;
+
+  Result := aux2;
+
+end;
+
+end.

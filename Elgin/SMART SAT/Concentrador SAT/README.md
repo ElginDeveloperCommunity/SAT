@@ -78,10 +78,24 @@ Desinstalando CSMServer
 $ sudo ./uninstallCSMServer
 ```
 
-Para ver logs em tempo real do server:
+Para ver logs em tempo real do server, é necessário primeiro ativar os logs no arquivo `/opt/CSMServer/configParametros.json`:
+```json
+{
+    "debugLog"      : true,
+    "portaServer"   : 2701,
+    "portaBroadcast": 3000
+}
+```
+
+restartar o serviço e então executar o comando:
 ```bash
 $ tail -f /opt/CSMServer/logCSM.txt
 ```
+
+### Arquivos de Log
+
+Os logs serão salvos no arquivo logCSM.txt até que ele chegue a 100Mb. Quando chegar a 100Mb ele será renomeado para logCSM.bkp e os logs mais recentes serão salvos em um novo logCSM.txt. Dessa maneira, os logs mais recentes sempre estarão no arquivo `logCSM.txt` e serão guardados na raspberry até 200Mb de logs dividos entre os arquivos logCSM.txt e logCSM.bkp.
+
 
 # Instalação Client
 

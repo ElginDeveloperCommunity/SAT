@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CFe>
+ <infCFe versaoDadosEnt="0.08">
+  <ide>
+   <CNPJ>16716114000172</CNPJ>
+   <signAC>SGR-SAT SISTEMA DE GESTAO E RETAGUARDA DO SAT</signAC>
+   <numeroCaixa>123</numeroCaixa>
+  </ide>
+  <emit>
+   <CNPJ>14200166000166</CNPJ>
+   <IE>111111111111</IE>
+   <IM>123123</IM>
+   <indRatISSQN>N</indRatISSQN>
+  </emit>
+  <dest/>
+ </infCFe>
+</CFe>

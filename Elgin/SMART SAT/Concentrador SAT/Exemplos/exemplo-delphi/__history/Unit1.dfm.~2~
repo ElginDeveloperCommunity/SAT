@@ -1,0 +1,115 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Delphi - Linker SAT II Elgin'
+  ClientHeight = 478
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GroupBox1: TGroupBox
+    Left = 24
+    Top = 8
+    Width = 393
+    Height = 161
+    Caption = 'Dados'
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 16
+      Top = 24
+      Width = 96
+      Height = 13
+      Caption = 'C'#243'digo de ativa'#231#227'o:'
+    end
+    object Label2: TLabel
+      Left = 16
+      Top = 51
+      Width = 81
+      Height = 13
+      Caption = 'CNPJ Softhouse:'
+    end
+    object Label3: TLabel
+      Left = 16
+      Top = 78
+      Width = 91
+      Height = 13
+      Caption = 'CNPJ Contribuinte:'
+    end
+    object Label4: TLabel
+      Left = 16
+      Top = 105
+      Width = 56
+      Height = 13
+      Caption = 'XML Venda:'
+    end
+    object Label5: TLabel
+      Left = 16
+      Top = 132
+      Width = 94
+      Height = 13
+      Caption = 'XML Cancelamento:'
+    end
+    object codAtivacao: TEdit
+      Left = 144
+      Top = 21
+      Width = 161
+      Height = 21
+      TabOrder = 0
+      Text = '123456789'
+    end
+    object cnpjSH: TEdit
+      Left = 144
+      Top = 48
+      Width = 161
+      Height = 21
+      TabOrder = 1
+    end
+    object cnpjContri: TEdit
+      Left = 144
+      Top = 75
+      Width = 161
+      Height = 21
+      TabOrder = 2
+    end
+    object xmlVenda: TEdit
+      Left = 144
+      Top = 102
+      Width = 161
+      Height = 21
+      TabOrder = 3
+    end
+    object xmlCancelamento: TEdit
+      Left = 144
+      Top = 129
+      Width = 161
+      Height = 21
+      TabOrder = 4
+    end
+    object btnXmlVenda: TButton
+      Left = 311
+      Top = 102
+      Width = 26
+      Height = 23
+      Caption = '...'
+      TabOrder = 5
+    end
+    object btnXmlCanc: TButton
+      Left = 311
+      Top = 129
+      Width = 26
+      Height = 21
+      Caption = '...'
+      TabOrder = 6
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 376
+    Top = 128
+  end
+end
