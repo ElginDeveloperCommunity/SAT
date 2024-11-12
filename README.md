@@ -1,6 +1,6 @@
 # SAT
 
-Repositório para os equipamentos SMART SAT Elgin e satGo Bematech.
+Repositório para o equipamento SMART SAT Elgin.
 
 ### Por onde começar?
 =================  
